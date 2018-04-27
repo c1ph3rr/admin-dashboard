@@ -19,10 +19,17 @@
         require_once('header.php');
     ?>
     
-
-    <script src="notyf.min.js"></script>
-    <script src="notify.js"></script>   
+    <div id="chartContainer" style="height: 70%; width: 60%;" class="uk-position-center"></div>
+    <p id="prediction" style="font-size: 20px;" class="uk-position-bottom-right uk-padding-large"></p>
     
+    <script src="./doughnut/notyf.min.js"></script>
+    <script src="./doughnut/notify.js"></script>   
+    <script src="./doughnut/script.js"></script>
+    <script type="text/javascript" src="./doughnut/jquery-1.11.1.min.js"></script>
+    <script type="text/javascript" src="./doughnut/canvasjs.min.js"></script>
+
+
+
     <?php
-    require_once('footer.php');
+        require_once('footer.php');
     ?>

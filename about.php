@@ -18,10 +18,11 @@
     require_once('header.php');
 ?>
 
-    
+
     <dl class="uk-description-list uk-position-center ">
-        <dt> Suraj Subbarao</dt>
-        <dd>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</dd>
+        <p class="uk-text-large">Roles:</p>            
+        <dt>Suraj Subbarao</dt>
+        <dd></dd>
         <hr class="uk-divider-icon">
         <dt>Srihari Humbarwadi (GAY)</dt>
         <dd>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</dd>

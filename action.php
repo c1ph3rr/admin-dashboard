@@ -18,18 +18,21 @@
 
 <form action="defense.php" method="get">
 
-<ul class="uk-list uk-list-divider uk-position-center">
+<ul class="uk-list uk-position-center ">
     <li>
-        <button name="hibernate" class="uk-button uk-button-primary uk-margin-small-right uk-width-1-1" type="submit">HIbernate Client Systems</button>
+        <button name="hibernate" class="uk-button-large uk-button uk-button-primary uk-margin-small-right uk-width-1-1" type="submit">HIbernate Client Systems</button>
     </li>
+    <hr class="uk-divider-icon">
     <li>
-        <button name="shut" class="uk-button uk-button-primary uk-margin-small-right uk-width-1-1" type="submit">Shutdown Client Systems</button>
+        <button name="shut" class="uk-button-large uk-button uk-button-primary uk-margin-small-right uk-width-1-1" type="submit">Shutdown Client Systems</button>
     </li>
+    <hr class="uk-divider-icon">    
     <li>
-        <button name="entire" class="uk-button uk-button-primary uk-margin-small-right uk-width-1-1" type="submit">Shutdown Entire</button>
+        <button name="entire" class="uk-button-large uk-button uk-button-primary uk-margin-small-right uk-width-1-1" type="submit">Shutdown Entire</button>
     </li>
+    <hr class="uk-divider-icon">    
     <li>
-        <button class="uk-button uk-button-primary uk-margin-small-right uk-width-1-1" type="button" onclick="window.open('./doughnut/data.json')">Show history</button>
+        <button class="uk-button-large uk-button uk-button-primary uk-margin-small-right uk-width-1-1" type="button" onclick="window.open('./doughnut/data.json')">Show history</button>
     </li>
 </ul>
 

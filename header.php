@@ -2,7 +2,7 @@
 
 <div class="uk-panel uk-padding-small uk-background-secondary uk-light">
         <span uk-icon="bolt"></span>            
-        <a class="uk-logo" href="dashboard.php">JASK</a>
+        <a class="uk-logo" href="dashboard.php">JASK v2.0</a>
 </div>
 
 
